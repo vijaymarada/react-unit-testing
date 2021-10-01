@@ -1,3 +1,22 @@
+## Unit Testing
+
+# default - Zest
+# Advanced - Enzyme
+
+Describe is used to create a test suite
+
+Snapshot testing-- for didifferences 
+
+shallow- test Static properties 
+
+to Test:   yarn test
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
