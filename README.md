@@ -11,19 +11,19 @@ shallow- test Static properties
 
 to Test:   yarn test
 
-#Docker cmds 
+### Docker cmds 
     ```
         ○ FROM node
         ○ WORKDIR /app
         ○ ENV Pth /app/node_modules/.bin:$PATH
         ○ COPY package.json ./
-        ○RUN npm install
-        ○COPY . ./
+        ○ RUN npm install
+        ○ COPY . ./
         ○ CMD ["npm","start"]
 
- docker build -t projectname .
+       docker build -t projectname .
 
-  docker run -v ${PWD}:/app -v /app/node-modules -p 3001:3000 dockersample
+      docker run -v ${PWD}:/app -v /app/node-modules -p 3001:3000 dockersample
 
     ```
 
