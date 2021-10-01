@@ -13,13 +13,13 @@ to Test:   yarn test
 
 #Docker cmds 
     ```
-        FROM node
-        WORKDIR /app
-        ENV Pth /app/node_modules/.bin:$PATH
-        COPY package.json ./
-        RUN npm install
-        COPY . ./
-        CMD ["npm","start"]
+        ○ FROM node
+        ○ WORKDIR /app
+        ○ ENV Pth /app/node_modules/.bin:$PATH
+        ○ COPY package.json ./
+        ○RUN npm install
+        ○COPY . ./
+        ○ CMD ["npm","start"]
 
  docker build -t projectname .
 
